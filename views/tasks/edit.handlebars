@@ -1,0 +1,30 @@
+<h1>Editar cadastro</h1>
+<link rel="icon" href="/img/defesa.ico">
+<form action="/tasks/edit" method="post">
+    <input type="hidden" name="id" value="{{task.id}}">
+    <div class="form-control">
+        <label for="nome">Nome do solicitante:</label>
+        <input type="text" name="nome" placeholder="Nome completo" value="{{task.nome}}">
+    </div>
+    <div class="form-control">
+        <label for="cpf">CPF:</label>
+        <input type="text" name="cpf" placeholder="000.000.000-00" value="{{task.cpf}}">
+    </div>
+    <div class="form-control">
+        <label for="contato">Contato:</label>
+        <input type="text" name="contato" placeholder="Telefone/celular" value="{{task.contato}}">
+    </div>
+    <div class="form-control">
+        <label for="endereco">Endereço:</label>
+        <input type="text" name="endereco" placeholder="Rua, número, bairro" value="{{task.endereco}}">
+    </div>
+    <div class="form-control">
+        <label for="arvore">Árvore:</label>
+        <input type="text" name="arvore" placeholder="Nome da árvore" value="{{task.arvore}}">
+    </div>
+    <div class="form-control">
+        <label for="matricula">Matrícula do terreno:</label>
+        <input type="text" name="matricula" placeholder="Número da matrícula do terreno" value="{{task.matricula}}">
+    </div>
+    <input type="submit" value="Salvar">
+</form>

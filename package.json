@@ -1,0 +1,23 @@
+{
+  "name": "projeto_II",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js localhost 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.25.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.2"
+  },
+  "description": ""
+}
